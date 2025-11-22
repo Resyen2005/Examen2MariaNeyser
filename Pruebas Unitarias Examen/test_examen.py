@@ -33,13 +33,13 @@ class TestMiClase(unittest.TestCase):
         # Lista con valores None
         resultado = self.objeto.VerificaListaCanciones(["song1", None, "song3"])
         self.assertFalse(resultado)
+        
     #Prueba para Encuentra
     def test_Encuentra_elemento_ausente(self):
         # Elemento que NO está en la lista
         resultado = self.objeto.Encuentra([1, 2, 3, 4, 5], 6)
         self.assertFalse(resultado)
     
-
 if __name__ == '__main__':
-
     unittest.main()
+
