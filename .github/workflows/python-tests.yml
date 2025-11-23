@@ -25,4 +25,4 @@ jobs:
         
     - name: Run tests
       run: |
-        python -m unittest "PruebasUnitarias/test_examen.py" "PruebasUnitarias/test_examen1.py" -t.
+        python -m unittest "PruebasUnitarias/test_examen.py" "PruebasUnitarias/test_examen1.py"
