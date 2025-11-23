@@ -16,7 +16,6 @@ class TestMiClase(unittest.TestCase):
         resultado = self.objeto.ObtieneValencia(2468)
         self.assertEqual(resultado, 0)
 
-
     # Pruebas para DivisibleTempo
     def test_DivisibleTempo_numero_comun(self):
         # Divisores de 10
